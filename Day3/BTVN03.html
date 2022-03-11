@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <style>
+      #myheader {
+        background-color: rgb(76, 121, 136);
+        color: white;
+        padding: 5px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+      <!-- Tiêu đề -->
+    <div id="myheader" style="width: 800px; margin: 0 auto; border-color: black;">
+      <h1 style="font-size: 50px">Client Details</h1>
+      <h3>Enter the details of all incoming clients</h3>
+    </div>
+    <div class="container">
+        <div style="margin: 50px 500px; text-align: left">
+            <!-- Client Name -->
+          <form>
+            <label style="font-size: 20px">Client Name<strong style="color: red">*</strong></label>
+            <input type="text" style="width: 350px; height: 30px; margin-left: 275px; border-color: #f2f2f2;"/>
+          </form>
+          <!-- Company -->
+          <form>
+            <label style="font-size: 20px">Company<strong style="color: red">*</strong></label>
+            <input type="text" style=" width: 350px; height: 30px; margin-top: 30px; margin-left: 275px; border-color: #f2f2f2;"/>
+          </form><br>
+          <!-- Title -->
+          <form>
+            <label style="font-size: 20px">Title<strong style="color: red">*</strong></label>
+            <input type="text" style=" width: 350px; height: 30px; margin-top: 30px; margin-left: 275px; border-color: #f2f2f2;" />
+          </form>
+          <!-- Preferred contact method -->
+          <form>
+            <label style="font-size: 20px" >Preferred contact method<strong style="color: red">*</strong></label>
+            <input type="radio" value="Email" name"fav_languge" id="Email" style="margin-left: 60px; margin-top: 40px;">
+            <lable for="Email">Email</lable>
+            <input type="radio" id="Phone" name"fav_languge" value="Phone" style="margin-left: 50px; margin-top: 40px;">
+            <label for="Phone">Phone</label>
+          </form><br><br>
+          <!-- Email -->
+          <form>
+            <label style="font-size: 20px">Email</label>
+            <input type="text" style=" width: 350px; height: 30px; margin-top: 0px; margin-left: 275px; border-color: #f2f2f2;"/>
+          </form>
+          <!-- Phone -->
+          <form>
+            <label style="font-size: 20px">Phone</label>
+            <input type="text" style=" width: 350px; height: 30px; margin-top: 0px; margin-left: 275px; border-color: #f2f2f2;"/>
+          </form><br>
+          <!-- Company Address -->
+          <selection>
+              <label style="font-size: 20px;">Company Address<strong style="color: red;">*</strong></label>
+              <input type="text" style="width: 350px; height: 30px; margin-top: 0px; margin-left: 275px; border-color: #f2f2f2;">
+              <p style="font-size: 15px; color:gray; margin-left: 280px;">Street Address</p>
+              <input type="text" style="width: 350px; height: 30px; margin-top: 0px; margin-left: 275px; border-color: #f2f2f2;">
+              <p style="font-size: 15px; color:gray; margin-left: 280px;">Address Line 2</p>
+              <input type="text" style="width: 170px; height: 30px; margin-top: 0px; margin-left: 275px; border-color: #f2f2f2;">
+              
+              <input type="text" style="width: 170px; height: 30px; margin-top: 0px; margin-left: 10px; border-color: #f2f2f2;">
+              <p style="font-size: 15px; color:gray; margin-left: 280px;">City <a style="margin-left: 155px;"> State/Region/Province</a></p>
+              <input type="text" style="width: 170px; height: 30px; margin-top: 30px; margin-left: 10px; border-color: #f2f2f2;">
+              <input type="<selection></selection>" value="-Select- &emsp;&emsp;&emsp;&emsp;&emsp;&#9876;" style="width:170px; height: 30px; margin-top:30px">
+              <p style="font-size: 15px; color:gray; margin-left: 280px;">Postal/Rip code <a style="margin-left: 155px;"> Country</a></p>
+          </form>
+          <!-- Company Website -->
+          <form>
+            <label style="font-size: 20px">Company Website<strong style="color: red">*</strong></label>
+            <input type="text" style="width: 350px; height: 30px; margin-left: 275px; border-color: #f2f2f2;"/>
+          </form><br><br>
+    
+          <!-- Company Logo - Code chèn -->
+          <!-- CWorking Hours -->
+          <form>
+            <label style="font-size: 20px">Working Hours<strong style="color: red">*</strong></label>
+            <input type="text" style="width: 350px; height: 30px; margin-left: 275px; border-color: #f2f2f2;"/>
+          </form>
+          <!-- Working Days -->
+          <form>
+            <label style="font-size: 20px">Working Days<strong style="color: red">*</strong></label>
+            <input type="text" style="width: 350px; height: 30px; margin-left: 275px; border-color: #f2f2f2;"/>
+          </form>
+          <!-- Bulling Cycle -->
+          <form>
+            <label style="font-size: 20px">Bulling Cycle<strong style="color: red">*</strong></label>
+            <input type="text" style="width: 350px; height: 30px; margin-left: 275px; border-color: #f2f2f2;"/>
+          </form>
+           <!-- Additional Information -->
+           <form>
+            <label style="font-size: 20px">Additional Information<strong style="color: red">*</strong></label>
+            <input type="textarea" style="width: 350px;height: 150px; margin-left: 275px; border-color: #f2f2f2;"/>
+          </form><br><br>
+          <div style="text-align: center;">
+            <button style="font-size: 20px; background-color: navajowhite; font-weight: bold;">Submit</button>
+          </div>
+        </div>
+    </div>
+    
+  </body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <style>
+      table {
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+      }
+      /* td là dữ liệu bảng chữ in thường, th là chữ in đậm, tr là hàng */
+      td,
+      th {
+        border: 1px solid;
+        color: black;
+        text-align: left;
+        padding: 8px;
+      }
+      tr:nth-child(even) {
+        background-color: #dddddd;
+      }
+    </style>
+    <h1 style="text-align: center; font-size: 60px; color: red">HTML Table</h1>
+    <a href="https://www.w3schools.com/html/html_tables.asp" style="color: red"
+      >Link HTML Table W3School</a
+    ><br />
+
+    <table>
+      <tr>
+        <th>STT</th>
+        <th>Ho va Ten</th>
+        <th>Nam sinh</th>
+        <th>Que quan</th>
+      </tr>
+      <tr>
+        <th>1</th>
+        <th>Nguyen Van A</th>
+        <th>1998</th>
+        <th>Ha Noi</th>
+      </tr>
+      <tr>
+        <th>2</th>
+        <th>Thao Nhi Tran</th>
+        <th>1995</th>
+        <th>TP HCM</th>
+      </tr>
+      <tr>
+        <th>3</th>
+        <th>Bui Tien Dung</th>
+        <th>1997</th>
+        <th>Long An</th>
+      </tr>
+      <tr>
+        <th>4</th>
+        <th>Phan Van Hau</th>
+        <th>1996</th>
+        <th>Da Nang</th>
+      </tr>
+    </table>
+  </body>
+</html>
+
+
+Đầu tiên là Style cho Table 
+<style>
+    table{ Thuộc tính: font chữ, Border, Dài rộng}
+    th,td{ Thuộc tính: font chữ}
+</style>
+Tới thẻ Body 
+<table>
+    <tr>
+        <td> Chữ thường </td>
+        <th> Chữ in đậm </th>
+    </tr>
+    Ngoài ra còn có thuộc tính nổi bật:
+    - Border, border-collapse
+    - Pading & Spacing
+    - Colspan & rowspan
+    - ...... https://www.w3schools.com/html/html_tables.asp
+
+</table>

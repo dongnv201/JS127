@@ -1,0 +1,39 @@
+/* body{
+    padding: 100px;
+}
+.container{
+    border: 1px dotted rebeccapurple;
+    width: 600px;
+    height: 600px;
+}
+
+.item{
+    width: 100px;
+    height: 100px;
+
+}
+.item-1{
+    background-color: aqua;
+}
+.item-2{
+    background-color: aqua;
+    
+}
+.item-3{
+    background-color: aqua;
+    
+}
+.item-4{
+    background-color: aqua;
+    
+} */
+
+.table-container{
+    max-width: 700px;
+    margin: 0 auto;
+    border: 1px solid red;
+}
+
+.table-container table{
+width: 100px;
+}
